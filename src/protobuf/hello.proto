@@ -1,0 +1,8 @@
+syntax = "proto3";
+package pbex;
+
+import "google/protobuf/any.proto";
+
+message Foo {
+  google.protobuf.Any bar = 1;
+}
